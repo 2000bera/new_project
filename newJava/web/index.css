@@ -4,14 +4,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", "Montserrat", sans-serif;
-    /* background-color: #2a2830;   */
+}
+
+body {
+    background-image: url(/newJava/images/587d493befc8cc029305f251f08dfd87.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 .head {
     font-size: 3em;
+    color: #fafafa;
 }
 
-#navbar, #login {
+#navbar, #login, #Signup {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -65,11 +73,32 @@
 
 #border {
     border-radius: 1em;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-color: #121010;
     margin-top: 8em;
     margin-left: 33em;
     width: 20em;
-    height: 260px;
+    height: 270px;
+    box-shadow: 6px 6px 24px 1px #121010;
+}
+
+#para-graph {
+    margin-top: 1em;
+    margin-left: 3.7em;
+    font-size: 0.9em;
+    color: #fafafa;
+
+}
+
+p {
+    font-weight: 800;
+    text-transform: capitalize;
+    width: 16em;
+}
+
+em, a {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
 }
