@@ -1,2 +1,2 @@
 # new_project
-Java
+Java and HTML/CSS
